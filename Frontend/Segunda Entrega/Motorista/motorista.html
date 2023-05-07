@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/motorista.css">
+    <script src="https://kit.fontawesome.com/9b77efb779.js" crossorigin="anonymous"></script>
+    <title>SwiftDrop</title>
+</head>
+<body>
+    <div id="header">
+        <section class="topletras">
+            <h2 id="titulo"> SwiftDrop</h2><br><h3>Que tengas un excelente día.</h3>
+        </section>
+    </div>
+        <div class="main" id="content-0">
+            <div id="cartas">
+                <section class="carta" id="div1">
+                    <div class="botonHome" id="btn4"  onclick="seleccionarOpcion(4)"><i class="fa-solid fa-truck-fast"></i></i></div> <h4 class="Servicio">Ordenes disponibles</h4>
+                 </section>
+                 <section class="carta" id="div1">
+                     <div class="botonHome" id="btn5" onclick="seleccionarOpcion(5)" ><i class="fa-solid fa-truck"></i> </div><h4 class="Servicio">Ordenes sin entregar</h4>
+                 </section>
+                 <section class="carta" id="div1">
+                     <div class="botonHome" id="btn6" onclick="seleccionarOpcion(6)" ><i class="fa-solid fa-truck"></i></div><h4 class="Servicio">Ordenes entregadas</h4>
+                 </section>
+            </div>
+        </div>
+        <div  id="content-1"></div>
+        <div  id="content-2"></div>
+        <div  id="content-3"></div>
+        <div  id="content-4"></div>
+        <div  id="content-5"></div>
+        <div  id="content-6"></div>
+        
+        
+
+    <footer class="footer">
+        <button onclick="seleccionarOpcion(1)" id="pedidosicon" class="icon"> <i class="fa-solid fa-clipboard-list"></i>  </button>
+        <button onclick="seleccionarOpcion(2)" id="homeicon" class="icon">  <i class="fa-solid fa-house"></i> </button>
+        <button onclick="seleccionarOpcion(3)" id="usericon" class="icon">  <i class="fa-solid fa-circle-user"></i>  </button>
+    </footer>
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+    <script src="js/controladorMotorista.js"></script>
+</body>
+</html>

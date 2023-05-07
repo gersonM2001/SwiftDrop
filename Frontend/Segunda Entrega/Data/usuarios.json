@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "6453f0e787a8618d95985d84"
+  },
+  "Nombre": "Daniel",
+  "foto": "./multimedia/user1.jpeg",
+  "direccion": "Residencial las uvas",
+  "Number": "9595-8985",
+  "email": "hshs258@gmail.com",
+  "password": "deibyFlores2020"
+},{
+  "_id": {
+    "$oid": "6453f0e787a8618d95985d85"
+  },
+  "Nombre": "TristeBoy",
+  "foto": "./multimedia/user2.jpeg",
+  "direccion": "Primera Entrada Kennedy",
+  "Number": "8859-1203",
+  "email": "abcd123@gmail.com",
+  "password": "yeye2022"
+},{
+  "_id": {
+    "$oid": "6453f0e787a8618d95985d86"
+  },
+  "Nombre": "MorteritoMan",
+  "foto": "./multimedia/user3.jpeg",
+  "direccion": "Valle de Angeles",
+  "Number": "9541-1526",
+  "email": "nmnm741@gmail.com",
+  "password": "patua>tortuga"
+}]

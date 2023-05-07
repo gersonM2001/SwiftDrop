@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0, minimum-scale=1.0">
+    <title> SwiftDrop</title>
+    <link rel="stylesheet" href="./css/clientes.css">
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/28c0bb64a2.js" crossorigin="anonymous"></script>
+    <script src="./js/controladorclient.js"></script>
+
+</head>
+<body>
+
+    <header class="header">
+        <section class="topletras">
+            <div id="headerTop">   <h2 id="titulo"> SwiftDrop</h2> </div> 
+            <h4 id="pregunta">¿Qué estás buscando?</h4></div> 
+        </section>
+    </header>
+        <div class="main" id="content-0">
+            <H2 id="Bienvenida"> Bienvenido a  SwiftDrop </H2>
+            <div id="cartas">
+                <section class="carta" id="div1">
+                    <button onclick="seleccionarOpcion(2)" class="botonHome"><i class="fa-solid fa-screwdriver-wrench"></i></button><h4 class="Servicio">Reparaciones</h4>
+                </section>
+                <section class="carta" id="div1">
+                    <button onclick="seleccionarOpcion(2)" class="botonHome"><i class="fa-solid fa-paint-roller"></i></button><h4 class="Servicio">Pinturas</h4>
+                </section>
+                <section class="carta" id="div2">
+                    <button onclick="seleccionarOpcion(2)" class="botonHome"><i class="fa-solid fa-couch"></i></button><h4 class="Servicio">Muebles</h4>
+                </section>
+                <section class="carta" id="div2">
+                    <button onclick="seleccionarOpcion(2)" class="botonHome"><i class="fa-solid fa-helmet-safety"></i></button><h4 class="Servicio">Construccion</h4>
+                </section>
+            </div>
+            
+        </div>
+        <div id="content-1" style="display: none;"></div>
+        <div id="content-2" style="display: none;"></div>
+        <div id="content-3" style="display: none;"></div>
+
+    <footer class="footer">
+        <button onclick="seleccionarOpcion(1)" id="pedidosicon" class="icon"> <i class="fa-solid fa-clipboard-list"></i>  </button>
+        <button onclick="seleccionarOpcion(2)" id="homeicon" class="icon">  <i class="fa-solid fa-house"></i> </button>
+        <button onclick="seleccionarOpcion(3)" id="usericon" class="icon">  <i class="fa-solid fa-circle-user"></i>  </button>
+    </footer>
+
+
+
+</body>
+</html>

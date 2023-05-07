@@ -1,0 +1,358 @@
+#header{
+    display: block;
+}
+
+    *{
+        margin: 0;
+    }
+    #header{
+        display: block;
+    }
+    #crearNuevaCuenta{
+        display: none;
+    }
+    #content-3, #content-1, #content-4, #content-5, #content-6{
+        display: none;
+    }
+    /*CSS para distribuir los espacios */
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        min-height: 100vh;
+        background-image: url(../multimedia/wallpaper.jpg);
+        background-color:#CDE6CF;
+        display: grid;
+        grid-template-areas: 
+        'header'
+        'main'
+        'footer';
+    }
+    img{
+        height: 80px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0,0.3);
+      }
+      #back{
+        position: fixed;
+        font-size: 35px;
+        background-color: rgba(73, 73, 73, 0.95);
+        border-width: 0;
+        color: aliceblue;
+        padding-left: 10px;
+      }
+    #header{
+        grid-area: 'header';
+        height: 20vh;
+        display: flex;
+        align-items: space-around;
+        font-size: large;
+        font-weight: 100;
+        color: aliceblue;
+        background-color: #FEBF87;
+    }
+    .topletras{
+        display: grid;
+        columns: 1;
+        padding-left: 15px ;
+    }
+    #titulo{
+        padding-top: 15px;
+    }
+    #pregunta{
+        padding-top: 25px;
+    }
+    .precios{
+        padding-left: 10px;
+    }
+
+/*CSS basicos para la pagina*/
+    div.main{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 8%;
+        margin-right: auto;
+        padding: 15px;
+        box-sizing: border-box;
+        font-size: 1rem;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        border-width: 0;
+        height:53vh;
+        padding: 0%;
+       
+        
+    }
+    .empresas-text{
+        padding-left: 15px;
+        font-size:30px;
+        color: black ;
+        font-weight: bold;
+        margin-top: 23px;
+    }
+    .ver{
+        
+        font-size:200px;
+        color: aliceblue ;
+        font-weight: bold;
+    }
+    .empresas{
+        background-color: #F2F0D6;
+        height: 12vh;
+        width: 32vh;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .inf{
+        background-color: #F2F0D6;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 12vh;
+        width: 90%;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        height: 23vh;
+        margin-left: 5%;
+        margin-top: 0%;
+        margin-bottom: 7%;
+    }
+    .info2{
+
+        background-color: #F2F0D6;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 12vh;
+        width: 90%;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        height: 45vh;
+        margin-left: 5%;
+        margin-top: 0;
+    }
+     .main #content-0 #cartas .carta #div1 .servicio{
+        font-size: 70%x;
+    }
+    .r{
+        margin-left: 8%;
+        margin-top: 8%;
+    }
+    .content-3{
+        height: 80vh;
+    }
+    #content-1{
+        margin-bottom: 20%;
+    }
+    .tit{
+        margin-left: 3%;
+        margin-top: 8%;
+    }
+    .boton-asignar{
+        border-width: 0;
+        margin-right: 20px;
+        border-radius: 5px;
+        background-color: rgb(12, 38, 59);
+        color: white;
+        height: 25px;
+        width: 65px;
+        margin-top: 23px;
+    }
+    .botonimg{
+        border-width: 0;
+    }
+    footer{
+        grid-area: 'footer';
+        height: 10vh;
+        width: 100%;
+        border-width: 0;
+        background-color: #FED2AB;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+    }
+    .icon{
+        height: 40px;
+        width: 40px;
+        background-color: rgb(199, 199, 199);
+        margin-top: 5px;
+        border-width: 0;
+        font-size: 35px;
+        color: rgb(16, 13, 65);
+    }
+    .icon:hover{
+        color: rgb(214, 147, 32);
+    }
+    h1{
+        text-align: center;
+    }
+/*CSS de la opcion de home*/
+    .card{
+        margin-top: 12px;
+    }
+    #NombreArticulo{
+        font-size: 20px;
+        padding-right: 4px;
+        color: rgb(32, 35, 214);
+    }
+    img{
+        height: 80px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0,0.3);
+    }
+    .seccion1{
+        padding-top: 5px;
+            
+    }
+    .seccion2{
+        padding-top: 8px;
+        padding-left: 15px;
+    }
+
+/*css para la opcion de usuarios */
+.contentUser{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.profilepic{
+    border-width: 0;
+}
+#imagenDePerfil{
+    height: 80px;
+    border-radius: 40px;
+}
+#imagenDePerfil:hover{
+    border-radius: 20px;
+    height: 85  px;
+}
+.infoPerfil{
+    padding-top: 20px;
+    padding-right: 1px;
+}
+#nombreUser{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(13, 23, 65) ;
+}
+#ubicacionUser{
+    font-weight: 500;
+    padding-top: 5px;
+    padding-left: 4px;
+}
+hr{
+    background-color: rgb(255, 247, 137);
+    border-radius: 10px;
+    height: 2px;
+}
+/*CSS De la opcion de pedidos*/
+
+.contentPedidos{
+    margin: 40px;
+    height: 26vh;
+    border-radius: 20px;
+    background-color: #FED2AB;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.producto{
+    border-width: 0;
+    background-color: rgb(0, 0, 0);
+}
+.infoPedido{
+    padding-right: 80px;
+}
+#pedidos{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+#LugarEntrega{
+    font-size: 18px;
+    font-weight:200;
+}
+#total{
+    font-size: 16px;
+}
+#numero{
+    font-size: 21px;
+    color: rgb(0, 0, 0);
+}
+#pedidosicon:hover{
+    color: rgb(0, 0, 0);
+}
+
+/*
+Div CONTENT 0
+*/
+#Bienvenida{
+    height: 7vh;
+    display: grid;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(1, 5, 4);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+input{
+width: 60%;
+margin-left: 19%;
+margin-right: auto;
+padding: 15px;
+box-sizing: border-box;
+font-size: 1rem;
+margin-bottom: 10px;
+border-radius: 8px;
+border-width: 0;
+}
+.carta{
+    display: flex;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 10px;
+    background-color: #F2F0D6;
+    border-radius: 20px;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.botonHome{
+    height: 100px;
+    width: 100px;
+    background-color: #F2F0D6;
+    border-radius: 20px;
+    border-width: 0;
+    font-size: 75px;
+}
+
+.pag2{
+    display: none;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 19%;
+    margin-right: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-width: 0;
+}
+
+#orden{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#paginaPedido{
+    margin: 46px;
+}

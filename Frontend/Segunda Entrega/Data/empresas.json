@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "6454096287a8618d95985d97"
+  },
+  "Nombre": "Larach",
+  "direccion": "Ubicado en la Kennedy",
+  "icono": "<i class=\"fa-solid fa-screwdriver-wrench  empresas-icon\"></i>",
+  "product": "https://walmarthn.vtexassets.com/arquivos/ids/265661/Martillo-Fibra-De-Vidrio-Bd-1-18256.jpg?v=638031730343400000"
+},{
+  "_id": {
+    "$oid": "6454096287a8618d95985d98"
+  },
+  "Nombre": "Ferromax",
+  "direccion": "Ubicado en la Bvd.Morazan",
+  "icono": "<i class=\"fa-solid fa-paint-roller    empresas-icon\"></i>",
+  "product": "https://walmarthn.vtexassets.com/arquivos/ids/265661/Martillo-Fibra-De-Vidrio-Bd-1-18256.jpg?v=638031730343400000"
+},{
+  "_id": {
+    "$oid": "6454096287a8618d95985d99"
+  },
+  "Nombre": "Alutech",
+  "direccion": "Ubicado en el CityMall",
+  "icono": "<i class=\"fa-solid fa-couch    empresas-icon\"></i>",
+  "product": "https://walmarthn.vtexassets.com/arquivos/ids/265661/Martillo-Fibra-De-Vidrio-Bd-1-18256.jpg?v=638031730343400000"
+},{
+  "_id": {
+    "$oid": "6454096287a8618d95985d9a"
+  },
+  "Nombre": "Decora",
+  "direccion": "Ubicado en el anillo",
+  "icono": "<i class=\"fa-solid fa-helmet-safety   empresas-icon\"></i>",
+  "product": "https://walmarthn.vtexassets.com/arquivos/ids/265661/Martillo-Fibra-De-Vidrio-Bd-1-18256.jpg?v=638031730343400000"
+}]

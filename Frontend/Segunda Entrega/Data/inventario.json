@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "6450c607538c8e65ffae1805"
+  },
+  "id": 1,
+  "nombre": "Silla",
+  "imagen": "./multimedia/Silla.jpg",
+  "precio": 500
+},{
+  "_id": {
+    "$oid": "6450c607538c8e65ffae1806"
+  },
+  "id": 2,
+  "nombre": "Lamina",
+  "imagen": "./multimedia/Lamina.jpg",
+  "precio": 150
+},{
+  "_id": {
+    "$oid": "6450c607538c8e65ffae1807"
+  },
+  "id": 3,
+  "nombre": "Serrucho",
+  "imagen": "./multimedia/Serrucho.jpg",
+  "precio": 200
+}]

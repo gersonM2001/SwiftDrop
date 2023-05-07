@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>SwiftDrop</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/Admin.css">
+    <script src="https://kit.fontawesome.com/28c0bb64a2.js" crossorigin="anonymous"></script>
+    //<script src="./js/controlador.js"></script>
+</head>
+
+<body>
+
+
+    <div id="main">
+
+        <nav id="nav" class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        SwiftDrop
+        
+            <button id="login" class="btn btn-secondary my-2 my-sm-0" type="submit" onclick="regresarPrincipal()">
+                Log in 
+            </button>
+            <button id="login" class="btn btn-secondary my-2 my-sm-0" type="submit" onclick="crearNuevaCuenta()">
+                Crear Usuario
+            </button>
+            </form>
+        </nav>
+
+        <section id="contenedor1">
+            <header>
+            <h1 class="titulo">NUESTRO COMPROMISO CON LOS CLIENTES</h1>   
+            </header>
+        </section>
+
+        <section id="contenedor2">
+                <ul class="cuerpo">
+                <li>
+                    Aqui encontrarás los materiales que necesitas para decorar y construir.
+                </li>
+                <br>
+                <li>
+                    Una manera más facil y rapida para poder adquirir materiales de construcción y decoración.  
+                </li>
+                <br>    
+                <li>
+                    Una manera más barata y confiable para adquirir materiales de construcción y decoración.  
+                </li>
+            </ul>
+            <section id="formulario">
+                <h5>Bienvenido Administrador</h5>
+                <br>
+                <input class="input" type="text" placeholder="Ingrese su Nombre" id="nombre">
+                <input class="input" type="email" placeholder="Ingrese su Correo" id="correo">
+                <input class="input" type="text" placeholder="Ingrese su Contraseña" id="password">
+                <br>
+                
+                <input type="submit"id="submit" onclick="hacerClick(5)">
+                </form>
+
+            </section> 
+
+            <section id="formularioAcceso">
+                <h5>Ingresa los datos para crear una nueva cuenta</h5>
+                <br>
+                <input class="input" type="text" placeholder="Ingrese su Nombre" id="nombreNuevo">
+                <input class="input" type="email" placeholder="Ingrese su Correo" id="correoNuevo">
+                <input class="input" type="text" placeholder="Ingrese su Contraseña" id="passwordNuevo">
+                <br>
+                
+                <input type="submit"id="submit" onclick="hacerClick(5)">
+                </form>
+
+            </section> 
+            
+        </section>
+    </div>
+    <div id="principal">
+        <div id="blur"> 
+            <div id="encabezado"><h1>SwiftDrop</h1></div>
+            <section class="middle">
+                <aside>
+                    <section class="molde-aside"><button class="botones-laterales" id="btn1"  onclick="hacerClick(1)">EMPRESAS</button></section>
+                    <section class="molde-aside"><button class="botones-laterales" id="btn2" onclick="hacerClick(2)">MOTORISTA</button></section>
+                    <section class="molde-aside"><button class="botones-laterales" id="btn3" onclick="hacerClick(3)">ORDENES</button></section>
+                    <section class="molde-aside"><button class="botones-laterales" id="btn4" onclick="hacerClick(4)">PRODUCTOS</button></section>
+                </aside>
+                <div id="container-main">
+                    <div id="content-0" class="main">
+                        <h4>Ultimas Valoraciones</h4>
+                        <section class="cliente-valoracion"><div><h3 class="texto-0">Cliente: Daniel</h3></div>   <div><h3><i class="fa-solid fa-thumbs-up     valoracion"></i></h3> </div> </section>
+                        <section class="cliente-valoracion"><div><h3 class="texto-0">Cliente: VelozBoy</h3></div>      <div><h3><i class="fa-solid fa-thumbs-down       valoracion"></i></h3> </div></section>
+                        <section class="cliente-valoracion"><div><h3 class="texto-0">Cliente: MorteritoMan</h3></div>       <div><h3><i class="fa-solid fa-thumbs-up     valoracion"></i></h3></div> </section>
+                    </div>
+    </div>
+    <div id="content-0">
+    </div>
+    <div  id="content-1">
+        <section class="empresas" id="empresa1"><p class="empresas-text"></p></section>
+    </div>
+    <div  id="content-2"></div>
+    <div  id="content-3"></div>
+    <div  id="content-4"></div>
+<script src="./js/Controlador.js"></script>
+</body>   
+
+</html>

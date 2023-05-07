@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "644757c4a04228a7a1d8433f"
+  },
+  "nombre": "moto",
+  "foto": "./multimedia/user1.jpeg",
+  "placaVehicular": "VHK-565",
+  "Number": "9595-0000",
+  "email": "hshs258@gmail.com",
+  "password": "deibyFlores2020"
+},{
+  "_id": {
+    "$oid": "644757c4a04228a7a1d84340"
+  },
+  "nombre": "moto",
+  "foto": "./multimedia/user2.jpeg",
+  "placaVehicular": "VHK-565",
+  "Number": "8859-2424",
+  "email": "abcd123@gmail.com",
+  "password": "yeye2022"
+},{
+  "_id": {
+    "$oid": "644757c4a04228a7a1d84341"
+  },
+  "nombre": "moto",
+  "foto": "./multimedia/user3.jpeg",
+  "placaVehicular": "VHK-565",
+  "Number": "9541-8526",
+  "email": "moto3@gmail.com",
+  "password": "moto3"
+}]

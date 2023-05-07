@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0, minimum-scale=1.0">
+    <title> SwiftDrop</title>
+    <link rel="stylesheet" href="./css/clientepedido.css">
+    <script src="https://kit.fontawesome.com/28c0bb64a2.js" crossorigin="anonymous"></script>
+    
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+    <script src="./js/controladorPago.js"></script>
+</head>
+<body>
+
+    <header class="header">
+        <section class="topicon">
+            <form action="./clientes.html"><button id="back"><i class="fa-solid fa-arrow-left"></i></button></form>
+            <h2 class="h2">Resumen de la orden</h2>
+        </section>
+    </header>
+
+        <div class="main" id="content">
+            <section class="img" id="SecImagen"><div id="color"> <img id="foto"src="./multimedia/Silla.jpg" alt=""></div>
+            <p>Silla  L.250.00</p></section>
+            <hr>
+            <section class="info" id="info"> 
+                <div id="cardInfo">
+                    <h2>Metodos de Pago</h2>
+                    <form action="">
+                        <input type="checkbox" name="" id="checkbox"><label class="label" id="labelefectivo"> Efectivo  <i class=" iconito fa-solid fa-money-bill-1-wave"></i></label><br>
+                        <input type="checkbox" name="" id="checkbox"><label class="label" id="labeltarjeta"> Tarjeta    <i class=" iconito fa-solid fa-credit-card"></i></label>
+                    </form>
+                </div>
+            </section>
+            <hr>
+            <section class="boton" id="cantidades">
+                <label id="boton" class="quantity">
+                    <input id="cantidad" type="number" min="1" max="10" step="1" value="1">
+                    <form onclick="enviarPedido('250','3')" action="./clientes.html"><button id="botonOrden">Procesar orden</button></form>
+                </label>
+            </section>
+
+        </div>
+
+
+
+</body>
+</html>

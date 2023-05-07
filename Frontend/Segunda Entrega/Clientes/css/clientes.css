@@ -1,0 +1,227 @@
+@media screen and (max-width: 800px){
+    *{
+        margin: 0;
+    }
+    /*CSS para distribuir los espacios */
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        min-height: 100vh;
+        background-color: #FFBF87;
+        display: grid;
+        grid-template-areas: 
+        'header'
+        'main'
+        'footer';
+    }
+    .header{
+        grid-area: 'header';
+        height: 20vh;
+        display: grid;
+        justify-items: space-around;
+        font-size: large;
+        font-weight: 100;
+        color: aliceblue;
+        background-color:#FFBF87;
+    }
+    .topletras{
+        display: grid;
+        justify-content: space-around;
+        padding-left: 15px ;
+    }
+    #logoboton{
+        height: 35px;
+        border-width: 0;
+        background-color:rgba(0, 2, 46, 1);
+        margin-left: 250px;
+        display: grid;
+        align-self: center;
+    }
+    #logoimagen{
+        height: 45px;
+    }
+    #titulo{
+        padding-top: 15px;
+        padding-left: 40px;
+    }
+    #pregunta{
+        padding-top: 25px;
+    }
+    .precios{
+        padding-left: 10px;
+    }
+/*CSS basicos para la pagina*/
+    div.main{
+        grid-area: 'main';
+        align-self: center;
+        min-height: 70vh;
+        border-width: 0;
+        background-color: rgb(206, 230, 208);
+        border-top-left-radius: 20px; border-top-right-radius: 20px;
+        display: grid;
+        columns: 1;
+        padding-right: 20px; padding-left: 20px;
+    }
+    div.card{
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+    }
+    .botonimg{
+        border-width: 0;
+    }
+    footer{
+        grid-area: 'footer';
+        height: 10vh;
+        width: 100%;
+        border-width: 0;
+        background-color: #FED2AB;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .icon{
+        height: 40px;
+        width: 40px;
+        background-color:#FED2AB;
+        margin-top: 5px;
+        border-width: 0;
+        font-size: 35px;
+        color: #ff9232;
+    }
+    .icon:hover{
+        color: rgb(214, 147, 32);
+    }
+/*CSS de la opcion de home*/
+    .card{
+        margin-top: 12px;
+    }
+    #NombreArticulo{
+        font-size: 20px;
+        padding-right: 4px;
+        color: rgb(214, 147, 32);
+    }
+    img{
+        height: 80px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0,0.3);
+    }
+    .seccion1{
+        padding-top: 5px;
+            
+    }
+    .seccion2{
+        padding-top: 8px;
+        padding-left: 15px;
+    }
+}
+/*css para la opcion de usuarios */
+.contentUser{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.profilepic{
+    border-width: 0;
+}
+#imagenDePerfil{
+    background-color: rgb(206, 230, 208);
+    height: 80px;
+    border-radius: 40px;
+}
+#imagenDePerfil:hover{
+    border-radius: 20px;
+    height: 85 px;
+}
+.infoPerfil{
+    padding-top: 20px;
+    padding-right: 1px;
+}
+#nombreUser{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(0, 2, 46, 1) ;
+}
+#ubicacionUser{
+    font-weight: 500;
+    padding-top: 5px;
+    padding-left: 4px;
+}
+hr{
+    background-color: FED2AB;
+    border-radius: 10px;
+    height: 2px;
+}
+/*CSS De la opcion de pedidos*/
+.contentPedidos{
+    height: 75%;
+    border-radius: 20px;
+    background-color: FED2AB;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.producto{
+    border-width: 0;
+    background-color: FED2AB;
+}
+.infoPedido{
+    padding-right: 80px;
+}
+#pedidos{
+    font-size: 30px;
+    color: rgba(0, 2, 46, 1);
+}
+#LugarEntrega{
+    font-size: 18px;
+    font-weight:200;
+}
+#total{
+    font-size: 16px;
+}
+#numero{
+    font-size: 21px;
+    color: rgb(214, 147, 32);
+}
+#pedidosicon:hover{
+    color: rgb(214, 147, 32);
+}
+
+/*
+Div CONTENT 0
+*/
+#Bienvenida{
+    height: 7vh;
+    display: grid;
+    text-align: center;
+    padding-top: 10px;
+    color: rgba(0, 2, 46, 1);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#cartas{
+    height:53vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.carta{
+    height: 150px;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 150px;
+    background-color: #F2F0D7;
+    border-radius: 20px;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+}
+.botonHome{
+    height: 100px;
+    width: 100px;
+    background-color: #F2F0D7;
+    border-radius: 20px;
+    border-width: 0;
+    font-size: 75px;
+}

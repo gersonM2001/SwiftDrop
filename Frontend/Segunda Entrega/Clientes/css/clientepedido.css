@@ -1,0 +1,218 @@
+@media screen and (max-width: 800px){
+    *{
+        margin: 0;
+    }
+    body{
+        min-height: 100vh;
+        background-color: #FFBF87;
+        display: grid;
+        grid-template-areas: 
+        'header'
+        'main'
+    }
+    .header{
+        grid-area: 'header';
+        height: 10vh;
+        display: flex;
+        align-items: space-around;
+        font-size: large;
+        font-weight: 100;
+        color: aliceblue;
+        background-color: #FFBF87;
+    }
+    .topicon{
+      padding-left: 10px;
+      padding-top: 10px;
+    }
+    .h2{
+      font-size: 20px;
+      padding-top: 5px;
+      padding-left: 60px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    #back{
+      position: fixed;
+      font-size: 35px;
+      background-color: #FFBF87;
+      border-width: 0;
+      color: aliceblue;
+      padding-left: 10px;
+    }
+    #titulo{
+        padding-top: 15px;
+    }
+    #pregunta{
+        padding-top: 25px;
+    }
+    .precios{
+        padding-left: 10px;
+    }
+    div.main{
+        grid-area: 'main';
+        align-self: center;
+        min-height: 90vh;
+        border-width: 0;
+        background-color: rgb(206, 230, 208);
+        border-top-left-radius: 20px; border-top-right-radius: 20px;
+        display: grid;
+        columns: 1;
+        padding-right: 20px; padding-left: 20px;
+    }
+    div.card{
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+    }
+    .botonimg{
+        border-width: 0;
+    }
+
+/*CSS contenido*/
+#content-1{
+  display: grid;
+        grid-template-areas: 
+        'img'
+        'info'
+        'boton';
+  justify-content: center;
+  align-content: space-around;
+}
+/*Parte de arriba container */
+#Secimagen{
+  grid-area: 'img';
+  height: 30vh;
+  display: grid;
+  align-content: center;
+  
+}
+#color{
+  height: 150px;
+  background-color: #F2F0D7;
+  border-radius: 30px;
+  width: 210px;
+  display: grid;
+  justify-content: center;align-content: center;
+}
+#foto{
+  border-radius: 20px;
+  height: 120px;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*Parte de media container */
+#info{
+  grid-area: 'info';
+  height: 20vh;
+}
+#cardInfo{
+  display: grid;
+  justify-content: center ;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 90px;
+  width: 250px;
+  padding-left: 10px;padding-top: 10px;
+  border-radius: 15px;
+  background-color: #F2F0D7;
+}
+.label{
+  font-weight: bold;
+}
+.iconito{
+  font-size: 20px;
+}
+.fa-money-bill-1-wave{
+  color:green;
+}
+.fa-credit-card{
+  color: rgb(10, 10, 85);
+}
+/*Parte de baja container */
+#boton{
+  grid-area: 'boton';
+  height: 30vh;
+  margin-left: 20px ; margin-right: 20px;
+  display: grid;
+  justify-content: space-between  ;
+
+}
+#botonOrden{
+  margin-top: 20px;
+  background-color: #ff9232;
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  border-width: 0;
+  border-radius: 10px;
+  height: 55px;
+  width: 180px;
+
+}
+
+/*CSS input number*/
+  .quantity input {
+    width: 50px;
+    height: 50px;
+    line-height: 1.65;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    display: grid;
+    align-self:center;
+    background-color: #FFBF87;
+    border-radius: 50px;
+  }
+  
+  .quantity-nav {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    margin-right: 20px;
+    height: 40px;
+  }
+  
+  .quantity-button {
+    width: 20px;
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+  
+  }
+  
+  .quantity-button.quantity-up {
+    margin-top: 2px;
+    color: rgb(0, 0, 0);
+    height: 40px;
+    width: 40px;
+    background-color:#FFBF87;
+    border-radius: 50px;  
+    margin-bottom: 15px;
+    padding-bottom: 4px;
+    border-width: 0;
+  }
+  
+  .quantity-button.quantity-down {
+    color: rgb(0, 0, 0);
+    height: 40px;
+    width: 40px;
+    background-color:#FFBF87;
+    border-radius: 50px;
+  }
+  .botonInput{
+    font-weight: bolder;
+    margin-left: 10px;
+  }
+
+}
+hr{
+  background-color: rgb(158, 158, 158);
+  border-radius: 10px;
+  height: 2px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>SwiftDrop</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/motorista.css">
+    <script src="https://kit.fontawesome.com/28c0bb64a2.js" crossorigin="anonymous"></script>
+   
+</head>
+
+<body>
+
+
+    <div id="main">
+
+        <nav id="nav" class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        SwiftDrop
+        
+            <button id="login" class="btn btn-secondary my-2 my-sm-0" type="submit" onclick="volverLogin()">
+                Log in 
+            </button>
+            
+            <button id="login" class="btn btn-secondary my-2 my-sm-0" type="submit" onclick="crearCuenta()">
+                Crear cuenta
+            </button>
+            </form>
+        </nav>
+            
+                <section id="formulario" method="POST">
+                    <h5>Bienvenido Administrador</h5>
+                    <br>
+                    <input class="input" type="text" placeholder="Ingrese su Nombre" id="nombre">
+                    <input class="input" type="email" placeholder="Ingrese su Correo" id="correo">
+                    <input class="input" type="text" placeholder="Ingrese su Contraseña" id="password">
+                
+                    <br>
+                    <br><form action="./motorista.html">
+                    <input type="submit"id="submit" >
+                    </form>
+    
+                </section> 
+
+            
+            <div id="crearNuevaCuenta">
+                
+            </div>
+        
+
+    </div>
+    
+    <script src="./js/controladorMotorista.js"></script>
+
+</body>   
+
+</html>
